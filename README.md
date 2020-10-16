@@ -17,13 +17,13 @@ If the player gets a letter which is contained in the word/phrase, all the lette
 
 
 To run the TDD test:
-...
+```
 $ rspect wad_wof_spec_01.rb
-...
+```
 
 To start the game:
-...
+```
 $ ruby wad_wof_run_01.rb
-...
+```
 
 
