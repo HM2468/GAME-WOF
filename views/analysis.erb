@@ -1,0 +1,12 @@
+<br>
+<% if $words == 0 %>
+    <p>Sorry, you got 0 word/phrase right.</p> 
+<% else %>
+    <% if $words == 1%>
+	    <p>Congratulations! You got <%= $words%> word/phrase right.</p> 
+        <p> It is: <%= $ShowResulta%> </p>
+    <% else %>
+	    <p>Congratulations! You got <%= $words%> words/phrases right.</p> 	
+        <p> They are: <%= $ShowResulta%> </p>
+    <% end %>
+<% end %>

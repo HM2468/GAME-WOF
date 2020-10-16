@@ -1,0 +1,60 @@
+<% if $GuessCharRight == 1 %>
+     <br>
+     <p>Guess a missing charater from the hidden word/phrase.</p>
+
+     <div id="template">
+          <p> <%= @ShowTemplate%> </p>
+     </div>
+
+     <form action="/Play" method="post">
+          Enter a character:<input type="text"name="GuessLetter">
+	     <br>
+          <input type="submit"value="Confirm"><br>
+     </form>
+  
+     <p>Your guess <%= $ShowGuess %> is in word</p> 
+     <p>You have <%= $ShowTurnLeft%>  goes left.</p>   
+
+<% else %>
+     <br>
+     <p>Guess a missing charater from the hidden word/phrase.</p> 
+     
+     <div id="template">
+          <p> <%= @ShowTemplate%> </p>
+     </div>
+
+     <form action="/Play" method="post">
+          Enter a character:<input type="text"name="GuessLetter">
+	     <br>
+          <input type="submit"value="Confirm"><br>
+     </form>
+  
+     <p>You entered: <%=$ShowGuess%></p> 
+     <p>You have <%=$ShowTurnLeft%>  goes left.</p>   
+
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
