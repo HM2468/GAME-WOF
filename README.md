@@ -1,6 +1,5 @@
 # GAME Wheel of Fortune
 
-
 * This game is based on the famous British TV show Wheel of Fortune
 https://en.wikipedia.org/wiki/Wheel_of_Fortune_(British_game_show)
 
@@ -16,10 +15,7 @@ the word/phrase by blank spaces.
 
 ## State diagram:
 
- ![image](https://github.com/HM2468/GAME-WOF/blob/main/wof.png)
-
-
-
+* ![image](https://github.com/HM2468/GAME-WOF/blob/main/wof.png)
 
 ## To run the TDD test:
 ```
